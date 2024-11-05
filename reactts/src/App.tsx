@@ -4,6 +4,7 @@ import UserProfileInfo from "./components/UserProfileInfo";
 import Todo from "./components/Todo";
 import Form from "./components/Form";
 import FocusInput from "./components/FocusInput";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   /*
@@ -34,8 +35,9 @@ const App = () => {
       <Counter />
       <UserProfileInfo />
       <Todo />
-      <Form />*/}
-      <FocusInput />
+      <Form />
+      <FocusInput />*/}
+      <ContactForm />
     </div>
   );
 };
