@@ -38,8 +38,8 @@ const App = () => {
       <Todo />
       <Form />
       <FocusInput />
-      <ContactForm />*/}
-      <EventHandling />
+      <ContactForm />
+      <EventHandling />*/}
     </div>
   );
 };
