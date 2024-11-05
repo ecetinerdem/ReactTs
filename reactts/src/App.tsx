@@ -3,6 +3,7 @@ import Counter from "./components/Counter";
 import UserProfileInfo from "./components/UserProfileInfo";
 import Todo from "./components/Todo";
 import Form from "./components/Form";
+import FocusInput from "./components/FocusInput";
 
 const App = () => {
   /*
@@ -32,8 +33,9 @@ const App = () => {
       <AdminInfo admin={admin} />
       <Counter />
       <UserProfileInfo />
-      <Todo />*/}
-      <Form />
+      <Todo />
+      <Form />*/}
+      <FocusInput />
     </div>
   );
 };
