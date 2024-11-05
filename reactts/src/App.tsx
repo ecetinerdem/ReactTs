@@ -5,6 +5,7 @@ import Todo from "./components/Todo";
 import Form from "./components/Form";
 import FocusInput from "./components/FocusInput";
 import ContactForm from "./components/ContactForm";
+import EventHandling from "./components/EventHandling";
 
 const App = () => {
   /*
@@ -36,8 +37,9 @@ const App = () => {
       <UserProfileInfo />
       <Todo />
       <Form />
-      <FocusInput />*/}
-      <ContactForm />
+      <FocusInput />
+      <ContactForm />*/}
+      <EventHandling />
     </div>
   );
 };
