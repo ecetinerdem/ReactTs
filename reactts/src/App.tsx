@@ -1,7 +1,7 @@
 import React from "react";
-import AdminInfo from "./components/AdminInfo";
-import UserInfo from "./components/UserInfo";
-import { Info, AdminInfoList } from "./types";
+import Counter from "./components/Counter";
+import UserProfileInfo from "./components/UserProfileInfo";
+import Todo from "./components/Todo";
 
 const App = () => {
   /*
@@ -28,7 +28,10 @@ const App = () => {
         disabled={false}
       />
       <UserInfo user={user} />
-      <AdminInfo admin={admin} />*/}
+      <AdminInfo admin={admin} />
+      <Counter />
+      <UserProfileInfo />*/}
+      <Todo />
     </div>
   );
 };
