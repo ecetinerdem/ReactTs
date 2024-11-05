@@ -1,7 +1,16 @@
 import React from "react";
+import Button from "./components/Button";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Button
+        label="Click"
+        onClick={() => console.log("clicked")}
+        disabled={false}
+      />
+    </div>
+  );
 };
 
 export default App;
