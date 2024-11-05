@@ -30,8 +30,8 @@ const App = () => {
       <UserInfo user={user} />
       <AdminInfo admin={admin} />
       <Counter />
-      <UserProfileInfo />*/}
-      <Todo />
+      <UserProfileInfo />
+      <Todo />*/}
     </div>
   );
 };
