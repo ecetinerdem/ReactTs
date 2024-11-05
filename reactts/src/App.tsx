@@ -2,6 +2,7 @@ import React from "react";
 import Counter from "./components/Counter";
 import UserProfileInfo from "./components/UserProfileInfo";
 import Todo from "./components/Todo";
+import Form from "./components/Form";
 
 const App = () => {
   /*
@@ -32,6 +33,7 @@ const App = () => {
       <Counter />
       <UserProfileInfo />
       <Todo />*/}
+      <Form />
     </div>
   );
 };
